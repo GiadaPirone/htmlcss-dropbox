@@ -8,15 +8,17 @@
 
 .flex{ display: flex;}
 
-.flexDirectColumn{
-    flex-direction: column;
-}
+.flexDirectColumn{ flex-direction: column;}
+
+.flexWrap{ flex-wrap: wrap;}
 
 .alignCenter{ align-items: center;}
 
 .justyContentCent{ justify-content: center;}
 
 .justyContentBet{ justify-content: space-between;}
+
+.justyContentAround{justify-content: space-around; }
 
 
 /* HEADER. */
@@ -44,19 +46,20 @@ header{
 .container{
     background-color: #B4D0E7;
     width: 100%;
-    min-height: 750px; /* da togliere succ */   
+    min-height: 750px; /* da togliere succ */  
+    padding: 1em 
 }
 
 .title{
     background-color: aqua;
-    width: calc(100% / 2);
+    width: calc(100% / 1.5);
     height: 250px; /* da togliere succ */ 
     margin: 0 auto;
 }
 
 .containerDue{
     background-color: bisque;
-    width: calc(100% / 2);
+    width: calc(100% / 1.5);
     height: 500px; /* da togliere succ */ 
     margin: 0 auto;
 }
@@ -71,4 +74,42 @@ header{
     background-color: rgb(180, 144, 214);
     width: calc(100% / 2);
     height: 350px; /* da togliere succ */ 
+}
+
+/* SECONDO BLOCCO */
+
+.plansUno{
+    background-color: azure;
+    width: calc(100% /2);
+    min-height:150px ; /* da togliere succ */ 
+    margin: 0 auto;    
+}
+
+.plansDue{
+    background-color: azure;
+    width: calc(100% /2);
+    min-height:150px ; /* da togliere succ */ 
+    margin: 0 auto; 
+}
+
+.mode{
+    background-color: rgb(136, 112, 112);
+    width: calc(100% / 3.5);
+    min-height: 100px; /* da togliere succ */ 
+    border: solid gray;
+    
+}
+
+.professional{
+    background-color: rgb(233, 208, 208);
+    width: 100%;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.enterprice{
+    background-color: rgb(51, 7, 7);
+    width: calc(100% - 2.5em);
+    min-height: 200px;
+    margin: 1em 0px 1em 0px;
 }
