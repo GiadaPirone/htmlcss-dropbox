@@ -64,13 +64,13 @@ header{
     margin: 0 auto;
 }
 
-.testo{
+.testoUno{
     background-color: blueviolet;
     width: calc(100% / 3);
     height: 350px; /* da togliere succ */ 
 }
 
-.immagine{
+.immagineUno{
     background-color: rgb(180, 144, 214);
     width: calc(100% / 2);
     height: 350px; /* da togliere succ */ 
@@ -93,23 +93,44 @@ header{
 }
 
 .mode{
-    background-color: rgb(136, 112, 112);
+    background-color: lightslategray;
     width: calc(100% / 3.5);
     min-height: 100px; /* da togliere succ */ 
-    border: solid gray;
-    
+    border: solid gray;   
 }
 
 .professional{
-    background-color: rgb(233, 208, 208);
+    background-color: pink;
     width: 100%;
     padding: 0.5em;
     text-align: center;
 }
 
 .enterprice{
-    background-color: rgb(51, 7, 7);
+    background-color: lightgray;
     width: calc(100% - 2.5em);
     min-height: 200px;
     margin: 1em 0px 1em 0px;
+}
+
+/* TERZO BLOCCO */
+
+.plansPartner{
+    background-color: azure;
+    width: calc(100% /2);
+    min-height:350px ; /* da togliere succ */
+    padding: 1em;
+    margin: 0 auto; 
+}
+
+.immagineDue{
+    background-color: pink;
+    width: 60%;
+    min-height: 400px;
+}
+
+.testoDue{
+    background-color: lightgray;
+    width: 40%;
+    min-height: 400px;
 }
