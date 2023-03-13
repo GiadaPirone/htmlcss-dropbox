@@ -20,6 +20,9 @@
 
 .justyContentAround{justify-content: space-around; }
 
+img{ width: 266px;
+}
+
 
 /* HEADER. */
 
@@ -96,7 +99,8 @@ header{
     background-color: lightslategray;
     width: calc(100% / 3.5);
     min-height: 100px; /* da togliere succ */ 
-    border: solid gray;   
+    border: solid gray; 
+    margin-bottom: 1em;  
 }
 
 .professional{
@@ -119,18 +123,66 @@ header{
     background-color: azure;
     width: calc(100% /2);
     min-height:350px ; /* da togliere succ */
-    padding: 1em;
-    margin: 0 auto; 
+    margin: 0 auto;  
 }
 
 .immagineDue{
     background-color: pink;
-    width: 60%;
+    width: calc(60% - 1em);
     min-height: 400px;
 }
 
 .testoDue{
     background-color: lightgray;
-    width: 40%;
+    width: calc(40% - 1em);
     min-height: 400px;
 }
+
+/* QUARTO BLOCCO */
+
+.plansQuattro{
+    background-color: azure;
+    width: calc(100% /2);
+    min-height:350px; /* da togliere succ */
+    margin: 0 auto; 
+}
+
+.operazioni{
+    width: calc(100% - 2em);
+}
+
+.imgUno{
+    width: 100%;
+    height: 50%;
+    background-image: url(./img/business-feature-send-files-it.png);
+}
+
+.boxbloccoQuattro{
+    font-size: 30px;
+    padding: 1em;
+}
+
+/* QUINTO BLOCCO. */
+
+.containerFinale{
+    background-color: lightgray;
+    width: 100%;
+    min-height: 200px; /* da togliere succ */
+}
+
+.box{
+    background-color: yellow;
+    width: calc(100% / 3);
+    border: solid black;
+    min-height: 635px; /* da togliere succ */
+}
+
+.card{
+    width: calc(100% / 2);
+    height: calc(100% /2)
+}
+
+.Verde{background-color: #A2D39B;}
+.Bordaux{background-color: #61082B;}
+.Azzurro{background-color: #0093CE;}
+.Corallo{ background-color: #FF1C1C;}
