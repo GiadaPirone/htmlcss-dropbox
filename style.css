@@ -20,63 +20,93 @@
 
 .justyContentAround{justify-content: space-around; }
 
-img{ width: 266px;
-}
+img{ width: 266px;}
+
+a{ text-decoration: none;}
+
+
 
 
 /* HEADER. */
 
 header{
-    background-color: pink;
     width: 100%;
     min-height:80px ; /* da togliere succ */
 }
 
 .navSx{
-    background-color: yellow;
-    width: calc(100% / 3);
-    height: 50px; /* da togliere succ */
+    width: calc(100% / 3);   
 }
 
+.logo{
+    background-image: url(./img/logo-small.png);
+    width: 127px;
+    min-height: 25px;
+    background-repeat: no-repeat;
+}
+
+
 .navDx{
-    background-color: yellow;
     width: calc(100%/3);
-    height: 50px; /* da togliere succ */
+}
+
+.buttonHeader{
+    padding: 0.5em;
+    background-color: blue;
+    color: white;
+}
+
+.linkHeader{
+    color: black;
 }
 
 /* MAIN. */
 /* PRIMO BLOCCO */
 .container{
     background-color: #B4D0E7;
-    width: 100%;
-    min-height: 750px; /* da togliere succ */  
+    width: 100%; 
     padding: 1em 
 }
 
 .title{
-    background-color: aqua;
     width: calc(100% / 1.5);
-    height: 250px; /* da togliere succ */ 
     margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+#titoloMain{
+    font-size: 5em;
 }
 
 .containerDue{
-    background-color: bisque;
     width: calc(100% / 1.5);
-    height: 500px; /* da togliere succ */ 
+    /* height: 500px; da togliere succ  */
     margin: 0 auto;
 }
 
 .testoUno{
-    background-color: blueviolet;
+    font-size: 1.5em;
     width: calc(100% / 3);
+    margin-right: 3em;
     height: 350px; /* da togliere succ */ 
 }
 
+.buttonMainUno{
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    margin: 1.5em 0px 1.5em 0px;
+    border: none;
+
+}
+
 .immagineUno{
-    background-color: rgb(180, 144, 214);
     width: calc(100% / 2);
     height: 350px; /* da togliere succ */ 
+}
+
+.jumbo{
+    width: 120%;
 }
 
 /* SECONDO BLOCCO */
