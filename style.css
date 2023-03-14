@@ -26,6 +26,7 @@ a{ text-decoration: none;}
 
 .padding1Em{padding: 1em;}
 .paddingMezzoem{ padding: 0.5em;}
+.paddingTopBottom{ padding: 1em 0 1em 0;}
 
 
 
@@ -140,7 +141,6 @@ header{
 
 .mode{
     width: calc(100% / 3.5);
-    border: solid 2px lightgray;
     margin-bottom: 1em;  
 }
 
@@ -185,14 +185,14 @@ header{
 /* QUARTO BLOCCO */
 
 .plansQuattro{
-    background-color: azure;
     width: calc(100% /2);
-    min-height:350px; /* da togliere succ */
-    margin: 0 auto; 
+    margin: 70px auto; 
 }
 
 .operazioni{
     width: calc(100% - 2em);
+    margin: 50px auto;
+    font-size: 1.5em;
 }
 
 .imgUno{
