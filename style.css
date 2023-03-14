@@ -186,3 +186,35 @@ header{
 .Bordaux{background-color: #61082B;}
 .Azzurro{background-color: #0093CE;}
 .Corallo{ background-color: #FF1C1C;}
+
+/* FOOTER. */
+
+/* DOMANDE. */
+
+.containerRequests{
+    background-color: azure;
+    width: calc(100% /2);
+    min-height:350px; /* da togliere succ */
+    margin: 0 auto; 
+}
+
+/* PARTE FINALE FOOTER. */
+
+.containerFooter{
+    width: 100%;
+    min-height: 300px;
+    background-color: black;
+}
+.boxFooter{
+    background-color: bisque;
+    width: calc(100% / 1.5);
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.cardFooter{
+    background-color: beige;
+    width: calc(100% / 5);
+    min-height: 200px; /* da togliere succ */
+    border: solid black;
+}
