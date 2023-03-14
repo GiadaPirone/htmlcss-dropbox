@@ -22,11 +22,15 @@
 
 img{ width: 266px;}
 
+.widthLogo{ width: 50%;}
+
 a{ text-decoration: none;}
 
 .padding1Em{padding: 1em;}
+.padding3Em{padding: 3em;}
 .paddingMezzoem{ padding: 0.5em;}
 .paddingTopBottom{ padding: 1em 0 1em 0;}
+
 
 
 
@@ -209,18 +213,19 @@ header{
 /* QUINTO BLOCCO. */
 
 .containerFinale{
-    background-color: lightgray;
     width: 100%;
-    min-height: 200px; /* da togliere succ */
+    margin: 100px 0px 100px 0px;
+    max-height: 635px;
 }
 
 .box{
-    background-color: yellow;
     width: calc(100% / 3);
-    border: solid black;
-    min-height: 635px; /* da togliere succ */
+    min-height: 635px; 
 }
 
+.scroll{
+    overflow-y: scroll;
+}
 .card{
     width: calc(100% / 2);
     height: calc(100% /2)
