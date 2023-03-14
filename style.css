@@ -24,6 +24,9 @@ img{ width: 266px;}
 
 a{ text-decoration: none;}
 
+.padding1Em{padding: 1em;}
+.paddingMezzoem{ padding: 0.5em;}
+
 
 
 
@@ -45,7 +48,6 @@ header{
     background-repeat: no-repeat;
 }
 
-
 .navDx{
     width: calc(100%/3);
 }
@@ -54,6 +56,7 @@ header{
     padding: 0.5em;
     background-color: blue;
     color: white;
+    border: none;
 }
 
 .linkHeader{
@@ -97,7 +100,11 @@ header{
     background-color: blue;
     margin: 1.5em 0px 1.5em 0px;
     border: none;
+}
 
+.arrowDown{
+    font-size: 2em;
+    color: black;
 }
 
 .immagineUno{
@@ -106,39 +113,44 @@ header{
 }
 
 .jumbo{
-    width: 120%;
+    width: 125%;
 }
 
 /* SECONDO BLOCCO */
 
 .plansUno{
-    background-color: azure;
     width: calc(100% /2);
-    min-height:150px ; /* da togliere succ */ 
     margin: 0 auto;    
 }
 
+.titlePlans{
+    font-size: 2em;
+    padding: 3em 0px 1em 0.5em;
+}
+
+.radio{
+    padding: 0px 0px 1em 1em;
+}
+
+
 .plansDue{
-    background-color: azure;
     width: calc(100% /2);
-    min-height:150px ; /* da togliere succ */ 
     margin: 0 auto; 
 }
 
 .mode{
-    background-color: lightslategray;
     width: calc(100% / 3.5);
-    min-height: 100px; /* da togliere succ */ 
-    border: solid gray; 
+    border: solid 2px lightgray;
     margin-bottom: 1em;  
 }
 
 .professional{
-    background-color: pink;
+    border: solid 2px lightgray;
     width: 100%;
     padding: 0.5em;
     text-align: center;
 }
+
 
 .enterprice{
     background-color: lightgray;
