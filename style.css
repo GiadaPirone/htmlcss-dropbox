@@ -162,22 +162,24 @@ header{
 /* TERZO BLOCCO */
 
 .plansPartner{
-    background-color: azure;
     width: calc(100% /2);
-    min-height:350px ; /* da togliere succ */
-    margin: 0 auto;  
+    margin: 60px auto;  
 }
 
 .immagineDue{
-    background-color: pink;
     width: calc(60% - 1em);
-    min-height: 400px;
+}
+
+.partner{
+    width: 100%;
 }
 
 .testoDue{
-    background-color: lightgray;
     width: calc(40% - 1em);
-    min-height: 400px;
+}
+
+.buttonTestoDue{
+    background-color: white;
 }
 
 /* QUARTO BLOCCO */
