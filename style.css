@@ -214,13 +214,23 @@ header{
 
 .containerFinale{
     width: 100%;
-    margin: 100px 0px 100px 0px;
     max-height: 635px;
+    background-color:#B4D0E7 ;
+}
+
+.containerFinale >  h1{
+    font-size: 35px;
+}
+
+.containerFinale > button{
+    background-color: white;
+    border: none;
 }
 
 .box{
     width: calc(100% / 3);
     min-height: 635px; 
+    background-color: #F5F5F5;
 }
 
 .scroll{
