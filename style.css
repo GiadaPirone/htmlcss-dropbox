@@ -42,6 +42,9 @@ a{ text-decoration: none;}
 header{
     width: 100%;
     min-height:80px ; /* da togliere succ */
+    position: fixed;
+    z-index: 999;
+    background-color: white;
 }
 
 .navSx{
@@ -75,7 +78,8 @@ header{
 .container{
     background-color: #B4D0E7;
     width: 100%; 
-    padding: 1em 
+    padding-top:110px; 
+    
 }
 
 .title{
