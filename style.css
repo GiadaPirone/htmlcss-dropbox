@@ -31,6 +31,8 @@ a{ text-decoration: none;}
 .paddingMezzoem{ padding: 0.5em;}
 .paddingTopBottom{ padding: 1em 0 1em 0;}
 
+.borderSolid{border: solid 2px lightgray;}
+
 
 
 
@@ -146,6 +148,7 @@ header{
 .mode{
     width: calc(100% / 3.5);
     margin-bottom: 1em;  
+    
 }
 
 .professional{
@@ -245,8 +248,14 @@ header{
 .Bordaux{background-color: #61082B;}
 .Azzurro{background-color: #0093CE;}
 .Corallo{ background-color: #FF1C1C;}
+.Rosso{ background-color: #D5001F;}
+.Zucchero{ background-color:#B4D0E7;}
+.Blu{background-color: #0D2481;}
+.Giallo{background-color: #FFD830;}
 
-/* FOOTER. */
+.widthLogo{ 
+    filter: invert(1);
+}
 
 /* DOMANDE. */
 
@@ -257,7 +266,30 @@ header{
 
 .containerRequests > div{
     margin-top: 30px;
-    margin: 30px 0px 20px 0px;
+    padding: 30px 0px 20px 0px;
+    border-bottom: solid 2px black;
+}
+
+.requests{
+    border-bottom: solid 2px black;
+}
+
+.requests span i{
+    margin-left: 370px;
+}
+
+.requests:hover span i{
+    transform: rotate(180deg);
+}
+
+.requests p:last-child{
+    display: none;
+    margin: 2em;
+ 
+}
+
+.requests:hover p:last-child{
+    display: block;
 }
 
 /* PARTE FINALE FOOTER. */
@@ -267,16 +299,28 @@ header{
     min-height: 300px;
     background-color: black;
 }
+
 .boxFooter{
-    background-color: bisque;
     width: calc(100% / 1.5);
-    min-height: 300px;
     margin: 0 auto;
 }
 
 .cardFooter{
-    background-color: beige;
     width: calc(100% / 5);
-    min-height: 200px; /* da togliere succ */
-    border: solid black;
+    color: white;
+}
+
+.cardFooter > h3{
+    padding: 1em;
+    font-size: 1.5em;
+    
+}
+
+.cardFooter > div{
+    padding: 1em;
+    
+}
+
+ul{
+    list-style: none;
 }
